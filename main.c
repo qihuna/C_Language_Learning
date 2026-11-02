@@ -10,14 +10,14 @@ int main()
     int product = a * b;
 
     printf("加法计算结果：%d\n", sum);
-    printf("减法结果：%d\n", difference);
-    printf("乘法结果：%d\n", product);
+    printf("减法计算结果：%d\n", difference);
+    printf("乘法计算结果：%d\n", product);
 
     // 除法运算
     if (b != 0)
     {
         double quotient = (double)a / b;
-        printf("除法结果：%.2f\n", quotient);
+        printf("除法计算结果：%.2f\n", quotient);
     }
     else
     {
